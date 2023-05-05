@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+images=`ls "/home/garuda/personal/extra/anime/" | xargs | tr " " "\n"| shuf`
+
+for image in $images
+do
+    feh --bg-fill "/home/garuda/personal/extra/anime/$image"
+    sleep 10m
+done
+```

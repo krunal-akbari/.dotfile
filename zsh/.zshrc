@@ -81,6 +81,7 @@ ZSH_THEME="robbyrussell"
     source $ZSH/oh-my-zsh.sh
 
 # User configuration
+plugins=(git zsh-autosuggestions)
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -108,6 +109,7 @@ ZSH_THEME="robbyrussell"
 alias tmux="tmux -u"
 alias screenkey="screenkey --opacity 0.2"
 alias nv=nvim
+# alias vim="NVIM_APPNAME=Init nvim"
 alias size=ncdu
 alias python="python3.11"
 
@@ -118,4 +120,7 @@ alias python="python3.11"
 #picom -b
 #clear
 
+PATH="/home/garuda/.cargo/bin:$PATH:/home/garuda/.local/bin"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
