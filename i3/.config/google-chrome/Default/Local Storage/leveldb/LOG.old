@@ -1,0 +1,13 @@
+2023/05/30-16:08:03.165 3 Reusing MANIFEST /home/kishan/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/05/30-16:08:03.166 3 Recovering log #7
+2023/05/30-16:08:03.168 3 Level-0 table #10: started
+2023/05/30-16:08:03.173 3 Level-0 table #10: 163139 bytes OK
+2023/05/30-16:08:03.178 3 Delete type=0 #7
+2023/05/30-16:08:03.179 5 Compacting 4@0 + 0@1 files
+2023/05/30-16:08:03.186 5 Generated table #12@0: 59 keys, 222426 bytes
+2023/05/30-16:08:03.186 5 Compacted 4@0 + 0@1 files => 222426 bytes
+2023/05/30-16:08:03.187 5 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/05/30-16:08:03.188 5 Delete type=2 #6
+2023/05/30-16:08:03.188 5 Delete type=2 #10
+2023/05/30-16:08:03.188 5 Delete type=2 #3
+2023/05/30-16:08:03.188 5 Delete type=2 #8

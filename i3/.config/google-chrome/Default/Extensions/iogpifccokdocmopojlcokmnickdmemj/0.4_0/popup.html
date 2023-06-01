@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>
+      Pesu Results & Attendance - Check your university isa marks and check how
+      many classes you can bunk
+    </title>
+    <meta
+      name="description"
+      content="Pesu Results is a web extension that simplifies the process of checking your university marks and calculates how many class you can bunk. With web scraping techniques, it retrieves your results and calculates your average marks for you. Try it out now!"
+    />
+    <meta
+      name="keywords"
+      content="Pesu Results, pesu university, pes university, university marks, web extension, web scraping, pesu attendance"
+    />
+    <meta name="author" content="Sahil Barvaliya & Krunal Akbari" />
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="img-div">
+        <img src="images/logo.png" alt="pesu results" />
+      </div>
+
+      <h1><span>PESU</span> <span>Results & Attendance</span></h1>
+    </div>
+
+    <!-- hera come logic to print data -->
+    <table id="percentage-table"></table>
+    <div id="input-container">
+      <div id="input-div">
+        Enter Desired Percentage:
+        <input
+          type="number"
+          id="desired-percentage"
+          min="0"
+          max="100"
+          value="80"
+          disabled
+        />
+        <!-- <button id="generate">Generate</button> -->
+      </div>
+    </div>
+    <table id="attendence-table"></table>
+    <p id="Error-msg">
+      This app Work only on Pesu <span class="underline">Result</span> and <span class="underline">Attendance</span> tab. Please go to tab and
+      try again.
+    </p>
+    <footer>
+      <p>
+        Made with <span class="heart">❤️</span> by
+        <a href="https://www.linkedin.com/in/sahil-barvaliya/" target="_blank"
+          >Sahil Barvaliya</a
+        >
+        and
+        <a href="https://www.linkedin.com/in/krunal-akbari/" target="_blank"
+          >Krunal Akbari</a
+        >
+      </p>
+    </footer>
+    <script src="background.js"></script>
+    <script src="mouse.js"></script>
+  </body>
+</html>

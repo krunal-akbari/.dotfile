@@ -120,7 +120,9 @@ alias python="python3.11"
 #picom -b
 #clear
 
-PATH="/home/garuda/.cargo/bin:$PATH:/home/garuda/.local/bin"
+PATH="/home/kishan/.cargo/bin:$PATH:/home/kishan/.local/bin"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
+if [[ -x $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+    exec startx &> /dev/null
+fi
