@@ -113,9 +113,6 @@ alias nv=nvim
 alias size=ncdu
 alias python="python3.11"
 
-#back ground image
-#feh --bg-scale ~/Personal/anime/one-piece.jpg
-
 #start up app
 #picom -b
 #clear
