@@ -123,3 +123,4 @@ PATH="/home/kishan/.cargo/bin:$PATH:/home/kishan/.local/bin"
 if [[ -x $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
     exec startx &> /dev/null
 fi
+export VISUAL=nvim
